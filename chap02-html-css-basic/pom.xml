@@ -30,6 +30,6 @@
 	</dependencies>
 
 	<build>
-		<finalName>chap02</finalName>
+		<finalName>ch02</finalName>
 	</build>
 </project>
