@@ -3,14 +3,16 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>com.bit2025</groupId>
-	<artifactId>chap02-html-css-basic</artifactId>
+	<artifactId>ch02-html-css-basic</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>war</packaging>
+	
 	<properties>
 		<project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
 		<maven.compiler.source>21</maven.compiler.source>
 		<maven.compiler.target>21</maven.compiler.target>
 	</properties>
+
 	<dependencies>
 		<!-- servlet api -->
 		<dependency>
@@ -31,5 +33,5 @@
 
 	<build>
 		<finalName>ch02</finalName>
-	</build>
+	</build>	
 </project>
