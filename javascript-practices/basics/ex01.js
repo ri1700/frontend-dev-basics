@@ -4,9 +4,22 @@ var i = 10;
 var s = "hello";   
 var b = true;
 
-console.log("u:" + typeof(u));
-console.log("i:" + typeof(i));
-console.log("s:" + typeof(s));
-console.log("b:" + typeof(b));
+console.log("u:" + typeof(u)+ ":" + u);
+console.log("i:" + typeof(i)+ ":" + i);
+console.log("s:" + typeof(s)+ ":" + s);
+console.log("b:" + typeof(b)+ ":" + b);
 
 console.log("===== [02] 객체 타입, object type");
+var i = new Number(10);
+var s = new String("hello world");
+var b = new Boolean("hello world");
+var o = {};
+var a = [];
+var n = null;
+
+console.log("i:" + typeof(i)+ ":" + i);
+console.log("s:" + typeof(s)+ ":" + s);
+console.log("b:" + typeof(b)+ ":" + b); 
+console.log("o:" + typeof(o)+ ":" + o);
+console.log("a:" + typeof(a)+ ":" + a);
+console.log("n:" + typeof(n)+ ":" + n);
