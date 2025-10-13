@@ -44,5 +44,5 @@ console.log("===== [03] 기본 타입과 유사객체");
 var b1 = true;                  // new Boolean(true) 아님 (primitive)
 var b2 = new Boolean(true);     // Boolean 객체 생성
 
-console.log(b1.valueOf());      // new Boolean(b1).valueOf() 자동 호출
-console.log(b2.valueOf());      // 정상 출력
+console.log(b1.valueOf());      // new Boolean(b1).valueOf() 자동 호출함.
+console.log(b2.valueOf());      // 정상 출력함.
