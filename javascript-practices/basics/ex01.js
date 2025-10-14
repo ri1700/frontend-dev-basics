@@ -18,12 +18,12 @@ var o = {};
 var a = [];
 var n = null;
 
-console.log("i:" + typeof(i)+ ":" + i);
-console.log("s:" + typeof(s)+ ":" + s);
-console.log("b:" + typeof(b)+ ":" + b); 
-console.log("o:" + typeof(o)+ ":" + o);
-console.log("a:" + typeof(a)+ ":" + a);
-console.log("n:" + typeof(n)+ ":" + n);
+console.log("i:" + typeof(i)+ ":" + (i instanceof (Number)));
+console.log("s:" + typeof(s)+ ":" + (s instanceof (String)));
+console.log("b:" + typeof(b)+ ":" + (b instanceof (Boolean))); 
+console.log("o:" + typeof(o)+ ":" + (o instanceof (Object)));
+console.log("a:" + typeof(a)+ ":" + (a instanceof (Array)));
+console.log("n:" + typeof(n));
 
 
 console.log("===== [02-2] 객체 타입, function");
@@ -35,9 +35,9 @@ var f2 = function() {
 
 var f3 = new Function();
 
-console.log("f1:" + typeof(f1));
-console.log("f2:" + typeof(f2));
-console.log("f3:" + typeof(f3)); 
+console.log("f1:" + typeof(f1) + ":" + (f1 instanceof(Function)));
+console.log("f2:" + typeof(f2) + ":" + (f2 instanceof(Function)));
+console.log("f3:" + typeof(f3) + ":" + (f3 instanceof(Function))); 
 
 
 console.log("===== [03] 기본 타입과 유사객체");
