@@ -3,11 +3,13 @@ var u;
 var i = 10;
 var s = "hello";   
 var b = true;
+var c = null;
 
 console.log("u:" + typeof(u)+ ":" + u);
 console.log("i:" + typeof(i)+ ":" + i);
 console.log("s:" + typeof(s)+ ":" + s);
 console.log("b:" + typeof(b)+ ":" + b);
+console.log("c:" + typeof(c)+ ":" + c);  // typeof null => object //BUG
 
 
 console.log("===== [02-1] 객체 타입, object type");
