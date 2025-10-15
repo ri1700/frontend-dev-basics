@@ -9,6 +9,18 @@ console.log(window.n, n);
 var e = "dooly@gmail.com";
 console.log(e, window.e);
 
+setTimeout(function(){
+	var child = window.open('popup.html', 'popup', 'windth=600', 'height=400');
+
+	setTimeout(function(){
+		child.document.write("<h1>popup contents changed!</h1>");
+	}, 2000);
+	
+	setTimeout(function(){
+		child.moveTo(200,200);
+	}, 4000);
+	
+}, 2000);
 </script>
 </head>
 <body>
