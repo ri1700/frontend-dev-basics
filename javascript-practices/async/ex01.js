@@ -3,6 +3,7 @@
 const {asyncFn01} = require('./async-fns');
 
 // test: success
+
 asyncFn01('params~', function(error, result){
     if(error) {
         console.log('error');
@@ -12,6 +13,7 @@ asyncFn01('params~', function(error, result){
 });
 
 // test: fail
+
 asyncFn01(null, function(error, result){
     if(error) {
         console.log(error);

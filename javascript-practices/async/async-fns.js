@@ -17,12 +17,13 @@ exports.asyncFn01 = function(param, callback){
 }
 
 // 2. Promise 지원 비동기 함수
-exports.asyncFn01 = function(param, callback){
+exports.asyncFn02 = function(param){
     return new Promise(function(resolve, reject){
        setTimeout(() => {
         //
         // 비동기 처리
         //
+        
         if(param !== null){
             // 성공
             resolve('sucess');
@@ -35,5 +36,3 @@ exports.asyncFn01 = function(param, callback){
         }, 3000) 
     });
 }
-
-// 3. async ~ await
